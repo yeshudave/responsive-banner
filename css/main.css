@@ -1,3 +1,43 @@
 html {
   font-family: Georgia, serif;
+  color: #fff;
+}
+
+header {
+  background-color: #495562;
+}
+
+.btn-ghost {
+  color: #fff;
+  border-color: #97a49b;
+}
+
+.btn-ghost:hover {
+  color: #495562;
+  border-color: #efefef;
+  background-color: #fff;
+}
+
+.earth {
+  max-width: 500px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .button {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, .0));
+  }
+
 }
